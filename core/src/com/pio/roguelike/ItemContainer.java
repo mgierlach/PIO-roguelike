@@ -23,6 +23,10 @@ public class ItemContainer {
     public ItemContainer(BitmapFont font) {
         itemList = new ArrayList();
         this.font = font;
+        ArrayList itemList;
+        int quantity;
+        FreeTypeFontGenerator generator;
+        //FreeTypeFontParameter parameter;
     }
     
     public void addItem(Item item){
