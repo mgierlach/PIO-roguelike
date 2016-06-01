@@ -11,9 +11,9 @@ package com.pio.roguelike;
  */
 public class ItemContainerTest {
         
-    Item miecz = new Item("miecz", 5000 );
-    Item tarcza = new Item("tarcza", 2000 );
-    Item skrzynia = new Item("skrzynia", 500 );
+    Item miecz = new Item("miecz", 5000, 1 );
+    Item tarcza = new Item("tarcza", 2000, 2 );
+    Item skrzynia = new Item("skrzynia", 500, 3 );
     
     ItemContainer kontener = new ItemContainer();
     
