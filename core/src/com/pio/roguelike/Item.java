@@ -16,11 +16,10 @@ public class Item {
     float price;
     int id;
     
-    public Item( String name, float price) {
+    public Item( String name, float price, int id) {
         this.name = name;
         this.price = price;
-        id = nextId;
-        nextId++;
+        this.id = id
         
     }
     
