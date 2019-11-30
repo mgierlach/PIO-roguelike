@@ -1,3 +1,1 @@
-Projekt na PIO
-
-Mega fajny
+PIO course project.
